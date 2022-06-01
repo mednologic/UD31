@@ -1,0 +1,35 @@
+
+
+#div_1{
+    background-color: aqua;
+}
+#div_2{
+    background-color:blueviolet;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    display: inline-block;
+}
+#div_3{
+    background-color:brown;
+}
+#img_monigote{
+    width: 90%;
+}
+#btn_columns{
+    margin-top: 1%;
+    margin-left: 1%;
+    justify-content: center;
+}
+#animate_btn{
+    background-color:blueviolet;
+    text-align: center;
+    justify-content: center;
+    animation: slider 1000ms;
+}
+@keyframes slider {
+    0% { top: 0; }
+    50% { top: 30px; left: 20px; }
+    50% { top: 10px; }
+    100% { top: 0; }
+  }

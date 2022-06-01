@@ -1,0 +1,21 @@
+#div_2{
+    justify-content: center;
+    text-align: center;
+    background-color:blueviolet;
+}
+#div_peque{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(184, 184, 184);
+}
+#div_centro{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+}
+.col-centered {
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}

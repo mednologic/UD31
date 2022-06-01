@@ -1,0 +1,73 @@
+h1 {
+    color: brown
+}
+
+.contornoCalcu {
+    border: 3px solid rgb(0, 0, 0);
+    height: 440px;
+    width: 30%;
+    margin-top: 2%;
+    background-color: #166df985;
+}
+
+.pantalla {
+    border: 2px solid brown;
+    margin-top: 5%;
+    width: 70%;
+    height: 10%;
+    background-color: white;
+}
+
+.btnRojo {
+    border: 1px solid brown;
+    margin-top: 5%;
+    display: inline-flex;
+    width: 22%;
+    height: 10%;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid brown;
+    margin-top: 5%;
+    display: inline-flex;
+    width: 12%;
+    height: 10%;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btnRojo,
+.btn {
+    background-color: orange;
+    font-size: 20px;
+}
+
+#retr,
+#ce,
+#c,
+#siete,
+#ocho,
+#nueve,
+#entre,
+#raiz,
+#cuatro,
+#cinco,
+#seis,
+#por,
+#residuo,
+#uno,
+#dos,
+#tres,
+#menos,
+#equis,
+#cero,
+#positivoNegativo,
+#punto,
+#mas,
+#igual {
+    margin-top: 10%;
+}

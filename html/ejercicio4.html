@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/ejercicio4.js"></script>
+    <title>Ejercicio 4</title>
+</head>
+
+<body>
+    <center>
+        <h1>Ejercicio 4</h1>
+    </center>
+    <hr><br>
+    <center>
+        <div class="contornoCalcu" id="contornoCalcu">
+            <!-- Pantalla de la calculadora -->
+            <div class="pantalla" id="pantalla"></div>
+
+            <!-- Primera hilera de botones -->
+            <div class="btnRojo" onclick="retroceder()">
+                <a id="retr">Retr</a>
+            </div>
+            <div class="btnRojo" onclick="borrarCE()">
+                <a id="ce">CE</a>
+            </div>
+            <div class="btnRojo" onclick="borrarC()">
+                <a id="c">C</a>
+            </div><br>
+
+            <!-- Segunda hilera de botones -->
+            <div class="btn" onclick="siete()">
+                <a id="siete">7</a>
+            </div>
+            <div class="btn" onclick="ocho()">
+                <a id="ocho">8</a>
+            </div>
+            <div class="btn" onclick="nueve()">
+                <a id="nueve">9</a>
+            </div>
+            <div class="btn" onclick="entre()">
+                <a id="entre">/</a>
+            </div>
+            <div class="btn" onclick="raiz()">
+                <a id="raiz">Raíz</a>
+            </div><br>
+
+            <!-- Tercera hilera de botones -->
+            <div class="btn" onclick="cuatro()">
+                <a id="cuatro">4</a>
+            </div>
+            <div class="btn" onclick="cinco()">
+                <a id="cinco">5</a>
+            </div>
+            <div class="btn" onclick="seis()">
+                <a id="seis">6</a>
+            </div>
+            <div class="btn" onclick="por()">
+                <a id="por">*</a>
+            </div>
+            <div class="btn" onclick="residuo()">
+                <a id="residuo">%</a>
+            </div><br>
+
+            <!-- Cuarta hilera de botones -->
+            <div class="btn" onclick="uno()">
+                <a id="uno">1</a>
+            </div>
+            <div class="btn" onclick="dos()">
+                <a id="dos">2</a>
+            </div>
+            <div class="btn" onclick="tres()">
+                <a id="tres">3</a>
+            </div>
+            <div class="btn" onclick="menos()">
+                <a id="menos">-</a>
+            </div>
+            <div class="btn" onclick="equis()">
+                <a id="equis">1/X</a>
+            </div><br>
+
+            <!-- Quinta hilera de botones -->
+            <div class="btn" onclick="cero()">
+                <a id="cero">0</a>
+            </div>
+            <div class="btn" onclick="positivoNegativo()">
+                <a id="positivoNegativo">+/-</a>
+            </div>
+            <div class="btn" onclick="punto()">
+                <a id="punto">.</a>
+            </div>
+            <div class="btn" onclick="mas()">
+                <a id="mas">+</a>
+            </div>
+            <div class="btn" onclick="igual()">
+                <a id="igual">=</a>
+            </div><br>
+        </div>
+    </center>
+
+    <script>
+        var pantalla = document.getElementById("pantalla");
+    </script>
+</body>
+
+</html>
