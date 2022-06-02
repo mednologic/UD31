@@ -21,15 +21,46 @@
     margin-left: 1%;
     justify-content: center;
 }
-#animate_btn{
-    background-color:blueviolet;
+.animate_btn{
     text-align: center;
     justify-content: center;
-    animation: slider 1000ms;
+    margin-left: 40%;
 }
+
+
 @keyframes slider {
     0% { top: 0; }
     50% { top: 30px; left: 20px; }
-    50% { top: 10px; }
     100% { top: 0; }
-  }
+}
+
+/*__________________________ Ejercicio 5 ___________________________*/
+.izquierda {
+    float: left;
+    margin-top: 6%;
+}
+
+.derecha {
+    float: right;
+    width: 50%;
+    margin-right: 15%;
+}
+
+.derecha img {
+    width: 50%;
+}
+
+td img {
+    max-width: 150px;
+    max-height: 120px;
+}
+
+.img {
+    width: 200%;
+    
+}
+/*__________________________ Ejercicio 6 ___________________________*/
+.time_div{
+    margin: auto;
+    display: inline-block;
+}
